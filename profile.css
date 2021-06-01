@@ -11,7 +11,7 @@
   display: inline-block;
   text-align: center;
   padding:10px;
-  border:0;
+  border:auto 50px;
   box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
   border-radius: 5px;
   width : 50%;
@@ -21,6 +21,7 @@
   justify-content: center;
   box-sizing: border-box;
   align-content: center;
+
 }
 
 .container {
@@ -30,6 +31,11 @@
   width: 1200px;
 
 
+}
+span {
+    display: inline-flex;
+    padding: .2em;
+  
 }
 
 * {
